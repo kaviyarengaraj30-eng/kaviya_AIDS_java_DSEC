@@ -1,0 +1,191 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int balance = sc.nextInt();
+
+        if (balance < 1000) {
+            System.out.println("Low Balance Alert");
+        }
+
+        sc.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int balance = sc.nextInt();
+
+        if (balance >= 5000) {
+            System.out.println("Bonus unlocked");
+        }
+
+        sc.close();
+    }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter temperature: ");
+        int temperature = sc.nextInt();
+
+        if (temperature >= 30) {
+            System.out.println("Warm day");
+        } else {
+            System.out.println("Cool Day");
+        }
+
+        sc.close();
+    }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter temperature: ");
+        int temp = sc.nextInt();
+
+        if (temp < 20) {
+            System.out.println("Cold day");
+        } else {
+            System.out.println("Warm day");
+        }
+
+        sc.close();
+    }
+}
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
+
+        if (Math.abs(number % 10) == 7) {
+            System.out.println("Lucky Ending");
+        } else {
+            System.out.println("Not a Lucky Ending");
+        }
+
+        sc.close();
+    }
+}import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
+
+        if (Math.abs(number % 10) == 7) {
+            System.out.println("Lucky Ending");
+        } else {
+            System.out.println("Not a Lucky Ending");
+        }
+
+        sc.close();
+    }
+}import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
+
+        if (Math.abs(number % 10) == 7) {
+            System.out.println("Lucky Ending");
+        } else {
+            System.out.println("Not a Lucky Ending");
+        }
+
+        sc.close();
+    }
+}import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
+
+        if (Math.abs(number % 10) == 7) {
+            System.out.println("Lucky Ending");
+        } else {
+            System.out.println("Not a Lucky Ending");
+        }
+
+        sc.close();
+    }
+}import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
+
+        if (Math.abs(number % 10) == 7) {
+            System.out.println("Lucky Ending");
+        } else {
+            System.out.println("Not a Lucky Ending");
+        }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter electricity units consumed: ");
+        int units = sc.nextInt();
+
+        if (units <= 100) {
+            System.out.println("Low consumption");
+        } else if (units <= 200) {
+            System.out.println("Medium consumption");
+        } else if (units <= 300) {
+            System.out.println("High consumption");
+        } else {
+            System.out.println("Very high consumption");
+        }
+
+        sc.close();
+    }
+}import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter years of experience: ");
+        int years = sc.nextInt();
+
+        if (years < 0) {
+            System.out.println("Invalid experience");
+        } else if (years <= 2) {
+            System.out.println("Fresher");
+        } else if (years <= 5) {
+            System.out.println("Junior Employee");
+        } else if (years <= 10) {
+            System.out.println("Experienced Employee");
+        } else {
+            System.out.println("Senior Employee");
+        }
+
+        sc.close();
+    }
+}
+
+        sc.close();
+    }
+}
