@@ -189,3 +189,71 @@ public class Main {
         sc.close();
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a sentence: ");
+        String strings = sc.nextLine();
+
+        StringBuilder sb = new StringBuilder(strings);
+
+        for (int i = 0; i < sb.length(); i++) {
+            if (sb.charAt(i) == ' ') {
+                sb.deleteCharAt(i);
+                i--;
+            }
+        }
+
+        System.out.println(sb);
+
+        sc.close();
+    }
+}
+ort java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a word: ");
+        String strings = sc.nextLine();
+
+        StringBuilder sb = new StringBuilder(strings);
+
+        if (sb.length() >= 3) {
+            sb.deleteCharAt(sb.length() - 1);
+            sb.deleteCharAt(0);
+
+            System.out.println(sb);
+        } else {
+            System.out.println("Enter at least 3 characters");
+        }
+
+        sc.close();
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a word: ");
+        String strings = sc.nextLine();
+
+        StringBuilder sb = new StringBuilder(strings);
+
+        if (sb.length() >= 3) {
+            StringBuilder last = new StringBuilder(
+                sb.substring(sb.length() - 3)
+            );
+
+            System.out.println(last);
+        } else {
+            System.out.println("Enter at least 3 characters");
+        }
+
+        sc.close();
+    }
+}
+
+
